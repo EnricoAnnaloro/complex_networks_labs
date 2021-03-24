@@ -1,0 +1,96 @@
+Chicago network, part of the Koblenz Network Collection
+===========================================================================
+
+This directory contains the TSV and related files of the tntp-ChicagoRegional network: This is the directed road transportation network of the Chicago region (USA).  Nodes are transport nodes, and edges are directed connections.  
+
+
+More information about the network is provided here: 
+http://konect.cc/networks/tntp-ChicagoRegional
+
+Files: 
+    meta.tntp-ChicagoRegional -- Metadata about the network 
+    out.tntp-ChicagoRegional -- The adjacency matrix of the network in whitespace-separated values format, with one edge per line
+      The meaning of the columns in out.tntp-ChicagoRegional are: 
+        First column: ID of from node 
+        Second column: ID of to node
+        Third column (if present): weight or multiplicity of edge
+        Fourth column (if present):  timestamp of edges Unix time
+
+
+Use the following References for citation:
+
+@MISC{konect:2017:tntp-ChicagoRegional,
+    title = {Chicago network dataset -- {KONECT}},
+    month = oct,
+    year = {2017},
+    url = {http://konect.cc/networks/tntp-ChicagoRegional}
+}
+
+@article{konect:tntp-chicago1,
+	title = {Equilibrium Traffic Assignment on an Aggregated Highway
+                  Network for Sketch Planning}, 
+	author = {R. W. Eash and K. S. Chon and Y. J. Lee and D. E. Boyce},
+	year = {1983},
+	journal = {Transp. Res. Record},
+	volume = {994},
+	pages = {30--37},
+}
+
+@article{konect:tntp-chicago2,
+	title = {Implementation and Evaluation of Combined Models of
+                  Urban Travel and Location on a Sketch Planning
+                  Network},
+	author = {D. E. Boyce and K. S. Chon and M. E. Ferris and
+                  Y. J. Lee and K-T. Lin and R. W. Eash},
+	year = {1985},
+	journal = {Chicago Area Transp. Study},
+	pages = {xii + 169},
+}
+
+@article{konect:tntp-chicago1,
+	title = {Equilibrium Traffic Assignment on an Aggregated Highway
+                  Network for Sketch Planning}, 
+	author = {R. W. Eash and K. S. Chon and Y. J. Lee and D. E. Boyce},
+	year = {1983},
+	journal = {Transp. Res. Record},
+	volume = {994},
+	pages = {30--37},
+}
+
+@article{konect:tntp-chicago2,
+	title = {Implementation and Evaluation of Combined Models of
+                  Urban Travel and Location on a Sketch Planning
+                  Network},
+	author = {D. E. Boyce and K. S. Chon and M. E. Ferris and
+                  Y. J. Lee and K-T. Lin and R. W. Eash},
+	year = {1985},
+	journal = {Chicago Area Transp. Study},
+	pages = {xii + 169},
+}
+
+
+@inproceedings{konect,
+	title = {{KONECT} -- {The} {Koblenz} {Network} {Collection}},
+	author = {Jérôme Kunegis},
+	year = {2013},
+	booktitle = {Proc. Int. Conf. on World Wide Web Companion},
+	pages = {1343--1350},
+	url = {http://dl.acm.org/citation.cfm?id=2488173},
+	url_presentation = {https://www.slideshare.net/kunegis/presentationwow},
+	url_web = {http://konect.cc/},
+	url_citations = {https://scholar.google.com/scholar?cites=7174338004474749050},
+}
+
+@inproceedings{konect,
+	title = {{KONECT} -- {The} {Koblenz} {Network} {Collection}},
+	author = {Jérôme Kunegis},
+	year = {2013},
+	booktitle = {Proc. Int. Conf. on World Wide Web Companion},
+	pages = {1343--1350},
+	url = {http://dl.acm.org/citation.cfm?id=2488173},
+	url_presentation = {https://www.slideshare.net/kunegis/presentationwow},
+	url_web = {http://konect.cc/},
+	url_citations = {https://scholar.google.com/scholar?cites=7174338004474749050},
+}
+
+

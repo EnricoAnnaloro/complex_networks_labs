@@ -1,0 +1,6 @@
+Centrality: "How to measure the importance of a vertex using only the graph structure"
+    - Vertex Degree
+    - Betweeness
+    - Closeness
+    - Eigenvector
+    - Random Walks
